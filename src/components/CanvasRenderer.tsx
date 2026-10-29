@@ -51,7 +51,7 @@ const CanvasRenderer: React.FC<CanvasRendererProps> = ({
           }}
         >
           <h3 className="font-bold mb-2 text-gray-800 text-lg">{field.name}</h3>
-          <ReactMarkdown className="text-sm text-gray-600 flex-grow">
+          <ReactMarkdown className="text-sm text-black flex-grow">
             {sections[index] || field.placeholder}
           </ReactMarkdown>
         </div>
